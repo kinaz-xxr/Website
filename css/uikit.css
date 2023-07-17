@@ -7,12 +7,18 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  * 3. Style
  */
+ .profile_image img {
+  flex-shrink: 1;
+  max-width: 5rem;
+  flex: 1;
+  border-radius: 50%;
+}
 
  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 html {
   /* 1 */
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: normal;
   line-height: 1.5;
   /* 2 */

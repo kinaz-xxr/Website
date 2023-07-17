@@ -2,3 +2,9 @@ html{
     font-family: IBM Plex Mono;
 }
 
+.images {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
